@@ -2,8 +2,10 @@
 import 'Animal.dart';
 
 void main() {
-  var dicodingCat = Animal('Gray', 2, 4.2);
-  dicodingCat.eat();
-  dicodingCat.poop();
-  print(dicodingCat.weight);
+  Animal('', 2, 4.2)
+  ..name = 'Gray'
+  ..eat()
+  ..poop()
+  ..sleep();
+  // print(dicodingCat.weight);
 }
