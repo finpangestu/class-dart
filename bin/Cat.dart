@@ -1,5 +1,6 @@
 import 'Animal.dart';
 
+// Inheritance from Class Abstract
 class Cat extends Animal {
   late String furColor;
 

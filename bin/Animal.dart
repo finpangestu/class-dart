@@ -1,4 +1,5 @@
-class Animal {
+// Abstract Class
+abstract class Animal {
   String _name = '';
   int _age = 0;
   double _weight = 0;
@@ -11,6 +12,7 @@ class Animal {
   }
 
   // Getter
+  int get age => _age;
   String get name => _name;
   double get weight => _weight;
 
