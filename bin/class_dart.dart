@@ -2,6 +2,7 @@
 // import 'Animal.dart';
 import 'Cat.dart';
 import 'Bird.dart';
+import 'extensions.dart';
 
 // Mixin
 // mixin Flyable {
@@ -56,4 +57,11 @@ void main() {
   // donald.walk();
   // donald.swim();
 
+  print('');
+
+  // Calling Extension Method
+  var unsortedNumbers = [2, 5, 3, 1, 4];
+  print(unsortedNumbers);
+  var sortedNumbers = unsortedNumbers.sortAsc();
+  print(sortedNumbers);
 }
